@@ -175,7 +175,7 @@ const Home = () => {
       <div className="w-64 bg-white border-r border-gray-200 flex flex-col">
         <div className="p-4 border-b border-gray-200 flex items-center">
           <div className="w-8 h-8 bg-green-500 rounded-md flex items-center justify-center text-white font-bold mr-2">
-            P
+            S
           </div>
           <span className="font-semibold text-gray-700">SAJAL MAITY</span>
         </div>
