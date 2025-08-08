@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc ; vite build",
-    "build-no-errors": "tsc ; vite build",
+    "build": "tsc && vite build",
+    "build-no-errors": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "types:supabase": "npx supabase gen types typescript --project-id $SUPABASE_PROJECT_ID > src/types/supabase.ts"
@@ -55,6 +55,7 @@
     "react-resizable-panels": "^2.0.19",
     "react-router": "^6.23.1",
     "react-router-dom": "^6.23.1",
+    "recharts": "^3.1.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.1",
